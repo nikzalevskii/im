@@ -36,6 +36,8 @@ class MongoDBConnection {
         });
         db.on('connected', () => {
             console.log('MongoDB connected!');
+            console.log('123');
+            console.log(config.db.dbUrl);
         });
         db.on('reconnected', () => {
             console.log('MongoDB reconnected!');
