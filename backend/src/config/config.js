@@ -3,7 +3,8 @@ const config = {
     env: process.env.ENV,
     port: 3000,
     db: {
-        dbUrl: 'mongodb://127.0.0.1:27017',
+        // dbUrl: 'mongodb://127.0.0.1:27017',
+        dbUrl: 'mongodb+srv://nzalevskii:qjjoSbFOn53VhGsO@cluster0.ikzbx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
         dbName: 'im',
         dbHost: 'localhost',
         dbPort: 27017,
