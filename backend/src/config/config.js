@@ -1,18 +1,18 @@
-const config = {
-    secret: 'd1UCyUDKC0TiWhDbs6U5QWiez6',
-    env: process.env.ENV,
-    port: 3000,
-    db: {
-        dbUrl: 'mongodb://127.0.0.1:27017',
-        // dbUrl: 'mongodb+srv://nzalevskii:qjjoSbFOn53VhGsO@cluster0.ikzbx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-        dbName: 'im',
-        dbHost: 'localhost',
-        dbPort: 27017,
-    },
-    deliveryCost: 10,
-    deliveryTypes: {delivery: 'delivery', self: 'self'},
-    paymentTypes: {cashToCourier: 'cashToCourier', cardOnline: 'cardOnline', cardToCourier: 'cardToCourier'},
-    statuses: {new: 'new', pending: 'pending', delivery: 'delivery', cancelled: 'cancelled', success: 'success'}
-};
+    const config = {
+        secret: 'd1UCyUDKC0TiWhDbs6U5QWiez6',
+        env: process.env.ENV,
+        port: 3000,
+        db: {
+            // dbUrl: 'mongodb://127.0.0.1:27017',
+            dbUrl: 'mongodb+srv://nzalevskii:0zAt1G3JxOgyUWLk@im-cluster.fl8d7.mongodb.net/?retryWrites=true&w=majority&appName=im-cluster',
+            dbName: 'im',
+            dbHost: 'localhost',
+            dbPort: 27017,
+        },
+        deliveryCost: 10,
+        deliveryTypes: {delivery: 'delivery', self: 'self'},
+        paymentTypes: {cashToCourier: 'cashToCourier', cardOnline: 'cardOnline', cardToCourier: 'cardToCourier'},
+        statuses: {new: 'new', pending: 'pending', delivery: 'delivery', cancelled: 'cancelled', success: 'success'}
+    };
 
-module.exports = config;
+    module.exports = config;
