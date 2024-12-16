@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "build-gp": "ng build --output-path docs --base-href /im/"
+    "build-gp": "ng build --output-path docs"
   },
   "private": true,
   "dependencies": {
