@@ -17,8 +17,7 @@ class MongoDBConnection {
          mongoose.connect(config.db.dbUrl, {
             dbName: config.db.dbName,
             useNewUrlParser: true,
-             // добавили useUnifiedTopology: true,
-             useUnifiedTopology: true,
+             // useUnifiedTopology: true,
         }).then();
         const db = mongoose.connection;
 
