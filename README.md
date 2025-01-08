@@ -1,7 +1,5 @@
 # **GreenStore**  
-An Online Plant Store with Authentication, Cart, and Favorites  
-
-**Live Demo:** [https://greenstore.onrender.com/](https://greenstore.onrender.com/)  
+An Online Plant Store 
 
 ---
 
